@@ -1,0 +1,129 @@
+50
+accuracy: 0.5
+C:\Users\Admin\Desktop\tn_project2\print_results.py:16: RuntimeWarning: invalid value encountered in long_scalars
+  pfpc=np.sum((yhat==ytrue)&(yhat==1))/np.count_nonzero(yhat)
+positive precision nan
+positive recall 0.0
+negative precision 0.5
+negative recall 1.0
+F1: nan
+
+100
+accuracy: 0.4782608695652174
+positive precision 1.0
+positive recall 0.2
+negative precision 0.4
+negative recall 1.0
+F1: 0.6461538461538462
+
+500
+accuracy: 0.8105263157894737
+positive precision 0.9032258064516129
+positive recall 0.7567567567567568
+negative precision 0.7216494845360825
+negative recall 0.8860759493670886
+F1: 0.8169023284108236
+
+1000
+calculated class probabilities are  [0.50943396 0.49056604]
+C:\Users\Admin\Desktop\tn_project2\naivebayes.py:68: RuntimeWarning: divide by zero encountered in log
+  predictions[rows_id][1]+=np.log(self.conditional_prob[0][idx])
+accuracy: 0.8121951219512196
+positive precision 0.7627906976744186
+positive recall 0.8631578947368421
+negative precision 0.8666666666666667
+negative recall 0.7681818181818182
+F1: 0.8151989976607914
+
+2000
+calculated class probabilities are  [0.49984282 0.50015718]
+accuracy: 0.8241758241758241
+positive precision 0.821256038647343
+positive recall 0.8292682926829268
+negative precision 0.8271604938271605
+negative recall 0.8190709046454768
+F1: 0.8241889319971957
+
+3000
+calculated class probabilities are  [0.50167785 0.49832215]
+accuracy: 0.8311688311688312
+positive precision 0.8164556962025317
+positive recall 0.8486842105263158
+negative precision 0.8466666666666667
+negative recall 0.8141025641025641
+F1: 0.8314772759092051
+
+4000
+calculated class probabilities are  [0.49968583 0.50031417]
+accuracy: 0.8317013463892289
+positive precision 0.8133640552995391
+positive recall 0.8620268620268621
+negative precision 0.8524804177545692
+negative recall 0.8012269938650307
+F1: 0.8322740782488872
+
+5000
+calculated class probabilities are  [0.49824869 0.50175131]
+accuracy: 0.8220338983050848
+positive precision 0.8016453382084096
+positive recall 0.8623402163225172
+negative precision 0.8464912280701754
+negative recall 0.7805864509605662
+F1: 0.8227637465151494
+
+6000
+accuracy: 0.8344566133108677
+positive precision 0.8269680436477007
+positive recall 0.8612012987012987
+negative precision 0.843263061411549
+negative recall 0.8056042031523643
+F1: 0.8342582725981268
+
+7000
+accuracy: 0.8205776173285199
+positive precision 0.8108995403808273
+positive recall 0.8552631578947368
+negative precision 0.8323977546110666
+negative recall 0.7828054298642534
+F1: 0.8203393877609534
+
+8000
+accuracy: 0.8236032642812304
+positive precision 0.8130841121495327
+positive recall 0.8518971848225214
+negative precision 0.835820895522388
+negative recall 0.7938144329896907
+F1: 0.8236533825527143
+
+9000
+accuracy: 0.8193440800444691
+positive precision 0.8063851699279093
+positive recall 0.8510869565217392
+negative precision 0.8345410628019324
+negative recall 0.7861205915813424
+F1: 0.8195323905978735
+
+10000
+accuracy: 0.8234261349385503
+positive precision 0.8094106463878327
+positive recall 0.8489531405782652
+negative precision 0.8390865639936272
+negative recall 0.7975769813225644
+F1: 0.8237565394890098
+
+
+11000
+accuracy: 0.8245815180004586
+positive precision 0.812691466083151
+positive recall 0.8463992707383774
+negative precision 0.8376685934489403
+negative recall 0.8024919243193355
+F1: 0.824812650158626
+
+12500
+accuracy: 0.8232931726907631
+positive precision 0.8058846006878104
+positive recall 0.8500604594921403
+negative precision 0.8425730004231908
+negative recall 0.79671868747499
+F1: 0.8238089732861558
